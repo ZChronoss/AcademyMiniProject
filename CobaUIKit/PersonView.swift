@@ -23,7 +23,6 @@ class PersonView: UIView {
         
         btn.addTarget(self, action: #selector(didTapSubscribe), for: .touchUpInside)
         return btn
-        
     }()
     
     private lazy var nameLbl: UILabel = {
